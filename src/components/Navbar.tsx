@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar">
             <div className="header-1"></div>
             <div className="header-2"></div>
             <div className="header-3"></div>
