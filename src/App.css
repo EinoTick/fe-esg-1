@@ -61,9 +61,9 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   padding: 1em;
-  border-radius: 0.3em;
   position: relative;
   z-index: 100;
+  border-radius: 50px;
 }
 
 nav ul {
@@ -119,6 +119,17 @@ nav:before {
   }
 }
 
+.section-2-icons {
+  width: 100%;
+  border: 1px white solid;
+  min-height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: calc(1rem + 10%);;
+}
+
 .home-page-container {
   /*position: relative;*/
 }
@@ -133,7 +144,5 @@ nav:before {
   top: 80px;
   left: -50px;
   z-index: 0;
-
-
 }
 
